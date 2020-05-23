@@ -12,7 +12,7 @@ export default function Loading(props) {
       overlayStyle={styles.Overlay}
     >
       <View style={styles.View}>
-        <ActivityIndicator size="large" color="#00A680" />
+        <ActivityIndicator size="large" color="#00a680" />
         {text && <Text style={styles.Text}>{text}</Text>}
       </View>
     </Overlay>

@@ -30,7 +30,7 @@ function CreateAccount() {
         style={styles.BtnRegister}
         onPress={() => navigation.navigate("register")}
       >
-        Registrate
+        Regístrate
       </Text>
     </Text>
   );
@@ -52,11 +52,11 @@ const styles = StyleSheet.create({
     marginRight: 10,
   },
   BtnRegister: {
-    color: "#00A680",
+    color: "#00a680",
     fontWeight: "bold",
   },
   Divider: {
-    backgroundColor: "#00A680",
+    backgroundColor: "#00a680",
     margin: 40,
   },
 });
